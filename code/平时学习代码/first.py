@@ -120,7 +120,7 @@ def reserseWords(input):
 
     return output
 
-if name =="_main_":
+if __name__ =="__main__":
     input='I like it'
     rw=reserseWords(input)
     print(rw)
