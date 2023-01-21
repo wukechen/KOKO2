@@ -1,7 +1,4 @@
 
-print("Hello,World!")
-'''
-
 #input ("\n\n按下enter键后退出。")
 
 x="a"
@@ -75,7 +72,7 @@ print(word[-1],word[-6])
 #字符串运算符
 
 #字符串格式化
-'''
+
 #f-string
 #称为字面量格式化字符串
 #以f开头，后面跟着字符串，字符串中的表达式用{}括起来，它会将变量或表达式计算后的值替换进去
@@ -86,7 +83,7 @@ print(S)
 w={'name':'Runoob','url':"www."}
 s=f'{w["name"]}:{w["url"]}'
 print(s)
-'''
+
 #列表的截取
 #格式：变量【头下标：尾下标】
 #索引值以 0 为开始值，-1 为从末尾的开始位置
@@ -517,7 +514,7 @@ try:
 except NameError:
     print('An exception flew by!')
     raise
-'''
+
 
 #定义清理行为
 try:
