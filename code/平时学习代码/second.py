@@ -1,4 +1,4 @@
-'''
+
 1==True
 0==False
 print(True+False)
@@ -39,7 +39,8 @@ c=C()
 c.set_x(250)
 print(c.__dict__)
 print(c.x)
-'''
+
+
 #封装
 class Student(object):
 
